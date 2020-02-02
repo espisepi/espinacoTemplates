@@ -13,7 +13,10 @@
         flex-flow: column nowrap;
     }
         .menu{
-            background: #2d4059;
+            background: url(/assets/img/bg-2.jpg);
+            background-position: center;
+            background-attachment: contain;
+            background-size: cover;
             display: flex;
             flex-flow: row nowrap;
             height: 100px;
