@@ -120,9 +120,17 @@ a{
                 flex: 1 1 100%;
                 margin: 10px 10px 0px 0px;
             }
+            .navegacion a{
+                color: #fff;
+                font-size: 11px;
+                text-transform: uppercase;
+                padding: 0 10px;
+                letter-spacing: 2px;
+            }
         .aside{
-            background: #f73f52;
+            /*background: #f73f52;*/
             flex: 1 1 auto;
+            margin: 10px 5px 10px 0;
         }
         .aside img{
             width: 100%;
