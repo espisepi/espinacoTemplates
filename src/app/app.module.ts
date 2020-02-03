@@ -7,13 +7,15 @@ import { BluuwebFlexboxComponent } from './components/bluuweb-flexbox/bluuweb-fl
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { PurecssComponent } from './components/purecss/purecss.component';
 import { AppleWatchComponent } from './components/apple-watch/apple-watch.component';
+import { SidebarMenuComponent } from './components/sidebar-menu/sidebar-menu.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     BluuwebFlexboxComponent,
     PurecssComponent,
-    AppleWatchComponent
+    AppleWatchComponent,
+    SidebarMenuComponent
   ],
   imports: [
     BrowserModule,
