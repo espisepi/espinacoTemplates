@@ -8,6 +8,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { PurecssComponent } from './components/purecss/purecss.component';
 import { AppleWatchComponent } from './components/apple-watch/apple-watch.component';
 import { SidebarMenuComponent } from './components/sidebar-menu/sidebar-menu.component';
+import { BakeryComponent } from './components/bakery/bakery.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { SidebarMenuComponent } from './components/sidebar-menu/sidebar-menu.com
     BluuwebFlexboxComponent,
     PurecssComponent,
     AppleWatchComponent,
-    SidebarMenuComponent
+    SidebarMenuComponent,
+    BakeryComponent
   ],
   imports: [
     BrowserModule,
