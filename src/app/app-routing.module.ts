@@ -5,10 +5,12 @@ import { PurecssComponent } from './components/purecss/purecss.component';
 import { AppleWatchComponent } from './components/apple-watch/apple-watch.component';
 import { SidebarMenuComponent } from './components/sidebar-menu/sidebar-menu.component';
 import { BakeryComponent } from './components/bakery/bakery.component';
+import { LoginComponent } from './components/login/login.component';
 
 
 const routes: Routes = [
   { path: '', component: PurecssComponent},
+  { path: 'login', component: LoginComponent},
   { path: 'bakery', component: BakeryComponent},
   { path: 'sidebarmenu', component: SidebarMenuComponent},
   { path: 'applewatch', component: AppleWatchComponent},
