@@ -10,6 +10,7 @@ import { AppleWatchComponent } from './components/apple-watch/apple-watch.compon
 import { SidebarMenuComponent } from './components/sidebar-menu/sidebar-menu.component';
 import { BakeryComponent } from './components/bakery/bakery.component';
 import { LoginComponent } from './components/login/login.component';
+import { Cube3dComponent } from './components/cube3d/cube3d.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { LoginComponent } from './components/login/login.component';
     AppleWatchComponent,
     SidebarMenuComponent,
     BakeryComponent,
-    LoginComponent
+    LoginComponent,
+    Cube3dComponent
   ],
   imports: [
     BrowserModule,

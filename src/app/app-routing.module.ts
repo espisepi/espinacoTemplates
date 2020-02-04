@@ -6,10 +6,12 @@ import { AppleWatchComponent } from './components/apple-watch/apple-watch.compon
 import { SidebarMenuComponent } from './components/sidebar-menu/sidebar-menu.component';
 import { BakeryComponent } from './components/bakery/bakery.component';
 import { LoginComponent } from './components/login/login.component';
+import { Cube3dComponent } from './components/cube3d/cube3d.component';
 
 
 const routes: Routes = [
   { path: '', component: PurecssComponent},
+  { path: 'cube3d', component: Cube3dComponent},
   { path: 'login', component: LoginComponent},
   { path: 'bakery', component: BakeryComponent},
   { path: 'sidebarmenu', component: SidebarMenuComponent},
