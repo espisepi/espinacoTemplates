@@ -14,6 +14,7 @@ import { Cube3dComponent } from './components/cube3d/cube3d.component';
 import { Rotation3dComponent } from './components/rotation3d/rotation3d.component';
 import { Demo1Component } from './components/demo1/demo1.component';
 import { RelojComponent } from './components/reloj/reloj.component';
+import { WaterEffectComponent } from './components/water-effect/water-effect.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { RelojComponent } from './components/reloj/reloj.component';
     Cube3dComponent,
     Rotation3dComponent,
     Demo1Component,
-    RelojComponent
+    RelojComponent,
+    WaterEffectComponent
   ],
   imports: [
     BrowserModule,
