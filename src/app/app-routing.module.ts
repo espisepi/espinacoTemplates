@@ -7,10 +7,12 @@ import { SidebarMenuComponent } from './components/sidebar-menu/sidebar-menu.com
 import { BakeryComponent } from './components/bakery/bakery.component';
 import { LoginComponent } from './components/login/login.component';
 import { Cube3dComponent } from './components/cube3d/cube3d.component';
+import { Rotation3dComponent } from './components/rotation3d/rotation3d.component';
 
 
 const routes: Routes = [
   { path: '', component: PurecssComponent},
+  { path: 'rotation3d', component: Rotation3dComponent},
   { path: 'cube3d', component: Cube3dComponent},
   { path: 'login', component: LoginComponent},
   { path: 'bakery', component: BakeryComponent},

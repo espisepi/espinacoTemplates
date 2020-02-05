@@ -11,6 +11,7 @@ import { SidebarMenuComponent } from './components/sidebar-menu/sidebar-menu.com
 import { BakeryComponent } from './components/bakery/bakery.component';
 import { LoginComponent } from './components/login/login.component';
 import { Cube3dComponent } from './components/cube3d/cube3d.component';
+import { Rotation3dComponent } from './components/rotation3d/rotation3d.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { Cube3dComponent } from './components/cube3d/cube3d.component';
     SidebarMenuComponent,
     BakeryComponent,
     LoginComponent,
-    Cube3dComponent
+    Cube3dComponent,
+    Rotation3dComponent
   ],
   imports: [
     BrowserModule,
