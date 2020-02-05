@@ -12,6 +12,8 @@ import { BakeryComponent } from './components/bakery/bakery.component';
 import { LoginComponent } from './components/login/login.component';
 import { Cube3dComponent } from './components/cube3d/cube3d.component';
 import { Rotation3dComponent } from './components/rotation3d/rotation3d.component';
+import { Demo1Component } from './components/demo1/demo1.component';
+import { RelojComponent } from './components/reloj/reloj.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +25,9 @@ import { Rotation3dComponent } from './components/rotation3d/rotation3d.componen
     BakeryComponent,
     LoginComponent,
     Cube3dComponent,
-    Rotation3dComponent
+    Rotation3dComponent,
+    Demo1Component,
+    RelojComponent
   ],
   imports: [
     BrowserModule,
